@@ -1,0 +1,256 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page 1"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "7.3%",
+            "right": "46.0%",
+            "top": "36.5%",
+            "bottom": "22.9%",
+            "width": "46.7%",
+            "height": "40.6%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "55.4%",
+            "right": "5.4%",
+            "top": "12.8%",
+            "bottom": "15.8%",
+            "width": "39.2%",
+            "height": "71.4%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "54.0%",
+            "right": "-0.0%",
+            "top": "0.0%",
+            "bottom": "2.0%",
+            "width": "46.0%",
+            "height": "98.0%"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "17.5%",
+            "right": "59.1%",
+            "top": "19.6%",
+            "bottom": "70.7%",
+            "width": "300px",
+            "height": "78px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ]
+    }
+  },
+  "exbVersion": "1.9.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "attributes": {
+    "portalUrl": "https://labgeo3.recife.ifpe.edu.br/portal"
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/starter-widget/",
+      "version": "1.8.0",
+      "config": null,
+      "id": "widget_1"
+    },
+    "widget_2": {
+      "uri": "widgets/common/image/",
+      "version": "1.9.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_2/1667694425094.png",
+            "originalUrl": "${appResourceUrl}/images/widget_2/1667694425094.png",
+            "fileName": "1667694425094.png",
+            "originalName": "SigaDoll.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1667694425094",
+            "isUseCompress": false,
+            "originalWidth": 628,
+            "originalHeight": 646,
+            "cropParam": {
+              "svgViewBox": "0 0 16 16",
+              "svgPath": "M0 0h16v16H0V0Z",
+              "cropShape": "square"
+            }
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/common/image/",
+      "version": "1.9.0",
+      "label": "Image 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_3/1667694500687.png",
+            "originalUrl": "${appResourceUrl}/images/widget_3/1667694500687.png",
+            "fileName": "1667694500687.png",
+            "originalName": "Illustration BG.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1667694500687",
+            "isUseCompress": false,
+            "originalWidth": 690,
+            "originalHeight": 875
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_3"
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.9.0",
+      "label": "Image 3",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1667694843351.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1667694843351.png",
+            "fileName": "1667694843351.png",
+            "originalName": "SigaLogo.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1667694843351",
+            "isUseCompress": false,
+            "originalWidth": 303,
+            "originalHeight": 78
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "66240ecbfbe744f9ace9f3e4badc439b",
+      "id": "dataSource_1",
+      "portalUrl": "https://labgeo3.recife.ifpe.edu.br/portal",
+      "sourceLabel": "Mapa base Sigabem WEB-Copy"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "timestamp": 1667710247942,
+  "originExbVersion": "1.9.0"
+}

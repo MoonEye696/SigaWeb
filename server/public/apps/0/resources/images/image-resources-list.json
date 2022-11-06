@@ -1,0 +1,44 @@
+{
+  "1667694425094": {
+    "originalName": "SigaDoll.png",
+    "fileName": "1667694425094.png",
+    "size": 55014,
+    "url": "${appResourceUrl}/images/widget_2/1667694425094.png",
+    "created": 1667694425094,
+    "resourcesPrefix": "images/widget_2",
+    "referedIds": [],
+    "originId": "1667694425094",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 628,
+    "originalHeight": 646
+  },
+  "1667694500687": {
+    "originalName": "Illustration BG.png",
+    "fileName": "1667694500687.png",
+    "size": 598775,
+    "url": "${appResourceUrl}/images/widget_3/1667694500687.png",
+    "created": 1667694500687,
+    "resourcesPrefix": "images/widget_3",
+    "referedIds": [],
+    "originId": "1667694500687",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 690,
+    "originalHeight": 875
+  },
+  "1667694843351": {
+    "originalName": "SigaLogo.png",
+    "fileName": "1667694843351.png",
+    "size": 9495,
+    "url": "${appResourceUrl}/images/widget_4/1667694843351.png",
+    "created": 1667694843351,
+    "resourcesPrefix": "images/widget_4",
+    "referedIds": [],
+    "originId": "1667694843351",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 303,
+    "originalHeight": 78
+  }
+}
