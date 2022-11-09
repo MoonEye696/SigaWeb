@@ -21,7 +21,16 @@ export default class Widget extends React.PureComponent<AllWidgetProps<any>, any
     `;
 
     const styleButton = css`
-    position: absolute;
+    position: center;
+    width: 310px;
+    height: 59px;
+    margin-left: 120px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background: #1F9454;
+    border-radius: 15px;
+    border: 0px;
     `;
 
 
